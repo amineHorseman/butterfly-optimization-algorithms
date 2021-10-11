@@ -1,0 +1,18 @@
+---
+### problem definition ###
+solution_size: 20    # size of individuals, i.e: number of genes (required parameter)
+lower_bound: 0       # minimum value for a gene (default: None)
+upper_bound: 99      # maximum value for a gene (default: None)
+#seed: 25            # set a fixed see for generating stochastic variables (default: None)
+
+### optimizer params ###
+pop_size: 5                     # number of solutions in the population (default: 10)
+max_iterations: 10              # max number of generations (default: 1)
+early_stopping_counter: 10      # number of iterations with no fitness improvemnt to stop (default: 10)
+method: 'xBOA'                  # optimizer name (required, choose from 'BOA', 'ABOA', 'mBOA', 'SABOA', 'xBOA', 'xABOA')
+method_params:                  # parameters for the optimizer (required)
+  sensory_modality: 0.01        
+  power_exponent: 0.1           
+  switch_probability: 0.8       
+  #mu: 2                        
+verbosity_level: 1              # set log frequecy for pygmo optimizers, i.e: printing progress (default: None)
