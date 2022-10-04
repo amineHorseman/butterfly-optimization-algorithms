@@ -54,7 +54,7 @@ pip install pygmo
 
 We used these algorithms to solve various problems and evaluated their performances. The main contributions are presented in this section:
 
-**1. Unknown Area Exploration problem**
+### **1. Unknown Area Exploration problem**
 
 In [Bendahmane et al. 2022], we used the Butterﬂy Optimization Algorithm (BOA) and its variants to solve the robotics Unknown Area Exploration problem with energy constraints in dynamic environments. As far as we know, BOA was never used for solving robotics problems before this work.
 
@@ -64,14 +64,14 @@ We found that BOA can be a good alternative to many metaheuristics in terms of t
 time, while xBOA is more robust to local optima; has better fitness convergence; and achieves better exploration rates than the original BOA
 and its other variants.
 
-Experimental data and screenshots are available in the folder [data/robot-exploration](https://github.com/amineHorseman/butterfly-optimization-algorithms/data/robot-exploration).
+Experimental data and screenshots are available in the folder [data/robot-exploration](https://github.com/amineHorseman/butterfly-optimization-algorithms/tree/main/data/robot-exploration).
 The full simulation code will be available soon.
 
-**2. Path Planning**
+### **2. Path Planning**
 
    ...to be completed.
 
-**3. Numerical Optimization**
+### **3. Numerical Optimization**
 
    ...to be completed.
 
@@ -103,7 +103,7 @@ Please open a new issue for each contribution before sending a pull request.
 
 - [Bendahmane et al. 2022]:
 
-   Bendahmane A, Tlemsani R (2022): *"Unknown area exploration for robots with energy constraints using a modified Butterfly Optimization Algorithm"*. Soft Computing https://doi.org/10.1007/s00500-022-07530-w [Under Review]
+   Bendahmane A, Tlemsani R (2022): *"Unknown area exploration for robots with energy constraints using a modified Butterfly Optimization Algorithm"*. Soft Computing https://doi.org/10.1007/s00500-022-07530-w
 
 - [Fan et al. 2020]:
 
